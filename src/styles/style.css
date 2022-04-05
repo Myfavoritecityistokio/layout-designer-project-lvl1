@@ -93,6 +93,7 @@ h2 {
   line-height: 1.2em;
   color: #2A2626;
   display: block;
+  margin: 0px;
 }
 
 h3 {
@@ -101,6 +102,7 @@ h3 {
   line-height: 1.2em;
   color: #2A2626;
   margin-bottom: 12px;
+  margin-top: 30px;
 }
 
 section {
@@ -209,7 +211,6 @@ header::before {
     max-width: 100%;
     height: 891px;
     background-color: #42413C;
-    margin: 0 auto;
    }
 
    .head_navigation {
@@ -224,7 +225,7 @@ header::before {
     width: 350px;
     height: 323px;
     position: absolute;
-    left: 165px;
+    left: 282px;
     top: 100px;
     text-align: left;
   }
@@ -234,7 +235,7 @@ header::before {
      position: absolute;
      width: 302px;
      height: 275px;
-     left: 545px;
+     left: 662px;
      top: 100px;
      text-align: left;
      padding: 24px;
@@ -245,7 +246,7 @@ header::before {
     position: absolute;
     width: 302px;
     height: 275px;
-    left: 925px;
+    left: 1042px;
     top: 100px;
     text-align: left;
     padding: 24px;
@@ -256,7 +257,7 @@ header::before {
     position: absolute;
     width: 302px;
     height: 300px;
-    left: 165px;
+    left: 282px;
     top: 443px;
     text-align: left;
     padding: 24px;
@@ -267,7 +268,7 @@ header::before {
     position: absolute;
     width: 302px;
     height: 300px;
-    left: 545px;
+    left: 662px;
     top: 443px;
     text-align: left;
     padding: 24px;
@@ -278,7 +279,7 @@ header::before {
     position: absolute;
     width: 302px;
     height: 300px;
-    left: 925px;
+    left: 1042px;
     top: 443px;
     text-align: left;
     padding: 24px;
@@ -294,3 +295,99 @@ header::before {
    a {
      text-decoration: none;
    }
+
+   .columns_ikea {
+    white-space: nowrap;
+    width: 540px;
+   }
+
+   .img_ikea {
+    vertical-align: top;
+    white-space: normal;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 578px;
+    height: 434px;
+    vertical-align: middle;
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  }
+
+   .text_ikea {
+    vertical-align: top;
+    white-space: normal;
+    display: inline-block;
+    margin-top: 100px;
+   }
+
+   .text_ikea1 {
+    font-family: 'Neucha', cursive;
+    font-size: 24px;
+    line-height: 1.2em;
+    color: #908D8B;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   .ikea::before {
+    content: " ";
+    background: url(../assets/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 914px;
+    z-index: -1;
+   }
+
+  .columns_ikea2 {
+    white-space: nowrap;
+    width: 540px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2em;
+  }
+
+  .text_ikea2 {
+    background-color: #b09a81;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 700;
+    display: block;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    width: 1110px;
+  }
+
+  .text_ikea3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    vertical-align: top;
+    white-space: normal;
+    display: inline-block;
+    margin-right: 30px;
+    width: 540px;
+    height: 125px;
+  }
+  
+  .text_ikea4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    vertical-align: top;
+    white-space: normal;
+    display: inline-block;
+    width: 540px;
+    height: 125px;
+  }
